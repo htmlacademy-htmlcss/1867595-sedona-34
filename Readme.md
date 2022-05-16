@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Саид Алиев](https://up.htmlacademy.ru/htmlcss/34/user/1867595).
-* Наставник: [Алиса Пепел].
+ Студент: [Саид Алиев](https://up.htmlacademy.ru/htmlcss/34/user/1867595).
+Наставник:[Алиса Пепел](https://htmlacademy.ru/profile/id615601).
 
 ---
 
