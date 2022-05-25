@@ -57,13 +57,80 @@
                     <a class="breadcrumbs-link" href="index.html">Главная</a>
                     <span class="visually-hidden">Главная</span>
                 </li>
+                <li class="bredcrumbs-item">
+                  <a class="breadcrumbs-link">Гостиницы</a>
+                </li>
             </ul>
           </header>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru" method="get">
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Инфраструктура:</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="Бассейн" checked>Бассейн
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="Парковка" checked>Парковка
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="Wi-Fi">Wi-Fi
+                    </label>
+                  </li>
+              </ul>      
+            </fieldset>
+
+            <form class="catalog-filter" action="https://echo.htmlacademy.ru" method="get">
               <fieldset class="catalog-filter-group">
-                  
+                <legend class="catalog-filter-title">Тип жилья:</legend>
+                <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                      <label class="control">
+                        <input class="control-input" type="radio" name="product-group" value="hotel" checked>
+                      </label>
+                    </li>
+                    <li class="catalog-filter-item">
+                      <label class="control">
+                        <input class="control-input" type="radio" name="product-group" value="motel">
+                      </label>
+                    </li>
+                    <li class="catalog-filter-item">
+                      <label class="control">
+                        <input class="control-input" type="radio" name="product-group" value="apartment">
+                      </label>
+                    </li>
+                </ul>      
               </fieldset>
+
+            
+            <button class="button" type="submit">Применить</button>
+              
           </form>
+      </section>
+      <section class="found-hotels">
+        <h2>Найдено гостиниц: 38</h2>
+        <select class="select-control" aria-label="Стоимость">
+          <option value="cheap">Сначала дешёвые</option>
+          <option value="popular">Сначала популярное</option>
+          <option value="expensive">Сначала дорогие</option>
+        </select>
+        <a class="button" href="#">
+          <span class="visually-hidden">Показать карточки</span>
+        </a>
+        <a class="button" href="#">
+          <span class="visually-hidden">Показать слайды</span>
+        </a>
+        <a class="button" href="#">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+
+        <div class="hotels">
+          <a class=""
+        </div>
       </section>
     </main>
 
